@@ -17,7 +17,7 @@
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dar: hsl((var(--hue), var(--sat), 0%));
+  --title-color-dark: hsl((var(--hue), var(--sat), 0%));
   --text-color: hsl((var(--hue), var(--sat), 46%));
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
@@ -53,6 +53,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
+  --mb-4-5: 4.5rem;
 
   /* Z INDEX */
 

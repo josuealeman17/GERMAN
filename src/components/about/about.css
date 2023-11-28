@@ -1,0 +1,128 @@
+.about__section {
+    width: 100%;
+    height: 80vh;
+}
+
+.about__container {
+
+    height: 120vh;
+    align-items: center;
+    display: block;
+
+}
+
+.about__key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+.about__hand {
+
+    font-size: var(--h1-font-size);
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.about__data {
+
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 50%);
+
+    
+}
+
+
+.about__person {
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.about__data h1 {
+    margin-left: 10%;
+    text-align: center;
+    font-size: var(--h1-font-size);
+}
+
+
+.about__pic {
+
+    width:100%;
+
+
+}
+
+.about__pic img {
+    margin-top: var(--mb-1);
+    margin-bottom: var(--mb-1);
+    width: 60%;
+    height: 100%;
+    filter: grayscale(.9);
+    transition: .3s;
+    border-radius: 1rem;
+    justify-self: center;
+    margin-right: 10%;
+
+}
+
+.about__pic img:hover {
+
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+
+.about__subtitle {
+    text-align: center;
+    position: relative;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-normal);
+    margin-bottom: var(--mb-0-5);
+    margin-top: var(--mb-0-25);
+}
+
+.hovered img {
+
+    margin-top: var(--mb-3);
+    margin-bottom: var(--mb-3);
+
+}
+
+.about__info {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 0.5rem;
+    font-size: var(--tiny-font-size);
+    text-align: center;
+}
+
+.about__box {
+    background-color: var(--container-color);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    font-size: var(--tiny-font-size);
+
+}
+
+
+.about__description {
+
+    display: grid;
+    margin-top: var(--mb-3);
+    margin-bottom: var(--mb-3);
+    align-items: center;
+}
+
+.hovered.about__description {
+
+    font-weight: var(--font-medium);
+
+}
